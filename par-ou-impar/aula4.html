@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Par ou impar</title>
+    <style>
+        span{
+            text-align: center;
+            text-transform: uppercase;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <script>
+        let valor = prompt("Digite o numero para saber se é par ou impar") 
+        if (valor % 2 == 0) { 
+            document.write(`<span>o numero ${valor} é par. recarregue a pagina ou pressione F5 para digitar novamente</span>`)
+        } else {
+            document.write(`<span>o numero ${valor} é impar. recarregue a pagina ou pressione F5 para digitar novamente</span>`)
+        }
+    </script>
+
+</body>
+
+</html>
